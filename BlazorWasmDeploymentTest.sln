@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmDeploymentTest", "BlazorWasmDeploymentTest.csproj", "{3E5A64A4-30E5-4035-8AC2-6DBF11F41567}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E5A64A4-30E5-4035-8AC2-6DBF11F41567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5A64A4-30E5-4035-8AC2-6DBF11F41567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5A64A4-30E5-4035-8AC2-6DBF11F41567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5A64A4-30E5-4035-8AC2-6DBF11F41567}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
