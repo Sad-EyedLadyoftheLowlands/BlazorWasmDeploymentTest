@@ -1,0 +1,30 @@
+-O2
+-s EXPORT_ES6=1
+-v
+-s DISABLE_EXCEPTION_CATCHING=0
+-Wl,--allow-undefined
+-s INITIAL_MEMORY=536870912
+--js-library "/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/src/pal_random.lib.js"
+--extern-pre-js "/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/src/es6/runtime.es6.iffe.js"
+--pre-js "/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/src/es6/dotnet.es6.pre.js"
+--js-library "/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/src/es6/dotnet.es6.lib.js"
+--post-js "/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/src/es6/dotnet.es6.post.js"
+--extern-post-js "/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/src/es6/dotnet.es6.extpost.js"
+"/home/dylan/c/c-sharp/BlazorWasmDeploymentTest/obj/Release/net7.0/wasm/for-publish/pinvoke.o"
+"/home/dylan/c/c-sharp/BlazorWasmDeploymentTest/obj/Release/net7.0/wasm/for-publish/driver.o"
+"/home/dylan/c/c-sharp/BlazorWasmDeploymentTest/obj/Release/net7.0/wasm/for-publish/corebindings.o"
+"/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/libicudata.a"
+"/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/libicui18n.a"
+"/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/libicuuc.a"
+"/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/libmono-component-debugger-stub-static.a"
+"/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/libmono-component-diagnostics_tracing-stub-static.a"
+"/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/libmono-component-hot_reload-stub-static.a"
+"/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/libmono-ee-interp.a"
+"/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/libmono-icall-table.a"
+"/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/libmono-ilgen.a"
+"/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/libmono-profiler-aot.a"
+"/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/libmono-wasm-eh-js.a"
+"/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/libmonosgen-2.0.a"
+"/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/libSystem.IO.Compression.Native.a"
+"/home/dylan/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.2/runtimes/browser-wasm/native/libSystem.Native.a"
+-o "/home/dylan/c/c-sharp/BlazorWasmDeploymentTest/obj/Release/net7.0/wasm/for-publish/dotnet.js"
